@@ -8,8 +8,8 @@ class rational{
     public:
         rational():numerator(0),denominator(1){};
     explicit rational(int anInteger):numerator(anInteger),denominator(1){};
-    rational(int aNumerator,int aDenominator):numerator(aNumerator),demoninator(aDenominator){};
-    rational(const rational &anotherRational):numerator(anotherRational.numeration),demoninator(anotherRational.denominator){};
+    rational(int aNumerator,int aDenominator):numerator(aNumerator),denominator(aDenominator){};
+    rational(const rational &anotherRational):numerator(anotherRational.numerator),denominator(anotherRational.denominator){};
     //Question 2.2
     int getNumerator() const{
         return numerator;
@@ -18,13 +18,13 @@ class rational{
         return denominator;
     }
     //Question 3
-    double (rational &Rational){
-        return(double)numerator/denominator;
+    double get_value(){
+        return (double) numerator/denominator;
     }
 
     //Question 4.1
     bool operator == (const rational& Rational) const{
-        if(numerator==Rational.numerator && denominator==denominator.denominator){
+        if(numerator == Rational.numerator && denominator==Rational.denominator){
             return true;
         }
         else{
@@ -32,8 +32,8 @@ class rational{
         }
     }
 
-    bool operator != const rational& Rational) const{
-        if(numerator!=Rational.numerator || denominator!=denominator.denominator){
+    bool operator != (const rational& Rational) const{
+        if(numerator!=Rational.numerator || denominator!=Rational.denominator){
             return true;
         }
         else{
@@ -44,14 +44,14 @@ class rational{
     //Question 5
     rational operator + (const rational& Rational) const{
         rational result = *this;
-        rational temp = *this
+        rational temp = *this;
         result.numerator = temp.numerator*Rational.denominator +temp.denominator*Rational.numerator;
         result.denominator += temp.denominator*Rational.denominator;
         return result;
     }
     rational operator - (const rational& Rational) const{
         rational result = *this;
-        rational temp = *this
+        rational temp = *this;
         result.numerator = temp.numerator*Rational.denominator -temp.denominator*Rational.numerator;
         result.denominator += temp.denominator*Rational.denominator;
         return result;

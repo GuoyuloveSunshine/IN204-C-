@@ -9,8 +9,8 @@ class rational{
     public:
         rational():numerator(0),denominator(1){};
     explicit rational(T anInteger):numerator(anInteger),denominator(1){};
-    rational(T aNumerator,T aDenominator):numerator(aNumerator),demoninator(aDenominator){};
-    rational(const rational &anotherRational):numerator(anotherRational.numeration),demoninator(anotherRational.denominator){};
+    rational(T aNumerator,T aDenominator):numerator(aNumerator),denominator(aDenominator){};
+    rational(const rational &anotherRational):numerator(anotherRational.numerator),denominator(anotherRational.denominator){};
     //Question 2.2
     T getNumerator() const{
         return numerator;
@@ -19,8 +19,8 @@ class rational{
         return denominator;
     }
     //Question 3
-    double (rational &Rational){
-        return(double)numerator/denominator;
+    double get_value(){
+        return (double) numerator/denominator;
     }
 
     //Question 4.1
