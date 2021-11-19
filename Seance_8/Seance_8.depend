@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1635844098 source:/home/guoyu/Documents/IN204/Seance_8/test.cpp
+	<iostream>
+	<thread>
+	"partie_1.hpp"
+
+1635844103 source:/home/guoyu/Documents/IN204/Seance_8/test2.cpp
+
+1635844101 /home/guoyu/Documents/IN204/Seance_8/partie_1.hpp
+	<iostream>
+	<thread>
+	<chrono>
+

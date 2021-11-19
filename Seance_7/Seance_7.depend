@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1634716679 source:/home/guoyu/Documents/IN204/Seance_7/exemple.cpp
+
+1634724173 source:/home/guoyu/Documents/IN204/Seance_7/test.cpp
+	"counter.hpp"
+	<iostream>
+
+1637013338 /home/guoyu/Documents/IN204/Seance_7/counter.hpp
+	<iostream>
+	<string>
+
+1634724717 source:/home/guoyu/Documents/IN204/Seance_7/counter.cpp
+	"counter.hpp"
+

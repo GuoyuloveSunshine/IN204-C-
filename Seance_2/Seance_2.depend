@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1637005748 source:/home/guoyu/Documents/IN204/Seance_2/counter.cpp
+	"counter.hpp"
+	<iostream>
+
+1631825309 /home/guoyu/Documents/IN204/Seance_2/counter.hpp
+
+1637005818 source:/home/guoyu/Documents/IN204/Seance_2/test.cpp
+	"MyBiDiCounter.hpp"
+	"BaseCounter.hpp"
+
+1631825347 /home/guoyu/Documents/IN204/Seance_2/MyBiDiCounter.hpp
+	"counter.hpp"
+	<iostream>
+
+1637006045 /home/guoyu/Documents/IN204/Seance_2/BaseCounter.hpp
+	"counter.hpp"
+	<iostream>
+

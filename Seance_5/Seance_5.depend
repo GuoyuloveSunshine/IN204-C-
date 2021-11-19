@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1633628498 source:/home/guoyu/Documents/IN204/Seance_5/test.cpp
+	<sstream>
+	<iostream>
+	<string>
+
+1633624297 /home/guoyu/Documents/IN204/Seance_5/Complex.hpp
+	<iostream>
+	<math.h>
+

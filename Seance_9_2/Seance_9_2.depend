@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636454061 source:/home/guoyu/Documents/IN204/Seance_9_2/Partie_2.cpp
+	<chrono>
+	<iostream>
+	<utility>
+

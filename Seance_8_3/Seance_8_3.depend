@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1635850990 source:/home/guoyu/Documents/IN204/Seance_8_3/test.cpp
+	"e.hpp"
+	<iostream>
+	<string>
+
+1635851161 /home/guoyu/Documents/IN204/Seance_8_3/e.hpp
+	<string>
+	<iostream>
+	<sstream>
+

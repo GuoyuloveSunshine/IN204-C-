@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1634109656 source:/home/guoyu/Documents/IN204/Seance_6/Exception.cpp
+	<iostream>
+
+1634116612 source:/home/guoyu/Documents/IN204/Seance_6/math.cpp
+	"math.hpp"
+	<iostream>
+
+1634117526 /home/guoyu/Documents/IN204/Seance_6/math.hpp
+	<exception>
+	<stdexcept>
+
+1634119481 source:/home/guoyu/Documents/IN204/Seance_6/test.cpp
+	<iostream>
+	"math.hpp"
+	"extend_exception.hpp"
+
+1634119450 source:/home/guoyu/Documents/IN204/Seance_6/extend_exception.cpp
+	"extend_exception.hpp"
+	<iostream>
+	"math.hpp"
+
+1634118437 /home/guoyu/Documents/IN204/Seance_6/extend_exception.hpp
+	<exception>
+	<stdexcept>
+	<string>
+

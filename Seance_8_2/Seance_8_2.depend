@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1635849509 source:/home/guoyu/Documents/IN204/Seance_8_2/test.cpp
+	"partie_2.hpp"
+	"mutex.hpp"
+	<iostream>
+	<algorithm>
+	<thread>
+
+1635848882 /home/guoyu/Documents/IN204/Seance_8_2/partie_2.hpp
+	<random>
+	<vector>
+
+1635849428 /home/guoyu/Documents/IN204/Seance_8_2/mutex.hpp
+	<random>
+	<vector>
+	<mutex>
+

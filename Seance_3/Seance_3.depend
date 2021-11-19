@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1632577760 source:/home/guoyu/Documents/IN204/Seance_3/simple_sort.cpp
+	"simple_sort.hpp"
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<random>
+
+1632576924 /home/guoyu/Documents/IN204/Seance_3/simple_sort.hpp
+	<vector>
+
+1632578018 source:/home/guoyu/Documents/IN204/Seance_3/test.cpp
+	<iostream>
+	<vector>
+	"simple_sort.hpp"
+	"simple_sort_general.hpp"
+
+1632578114 /home/guoyu/Documents/IN204/Seance_3/simple_sort_general.hpp
+	<vector>
+	<iostream>
+	<stdlib.h>
+	<vector>
+	<random>
+
+1632299564 source:/home/guoyu/Documents/IN204/Seance_3/try.cpp
+
